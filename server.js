@@ -1,7 +1,7 @@
 // Importing necessary modules
 const TelegramBot = require('node-telegram-bot-api');
 const token = '8899265028:AAFhk8hBs4JcqM_DTBFkBRILug7TXFLg4o4';
-const bot = new TelegramBot(token, { polling: false, request: {
+const bot = new TelegramBot(token, { polling: true, request: {
     agentOptions: {
         keepAlive: true,
         family: 4
